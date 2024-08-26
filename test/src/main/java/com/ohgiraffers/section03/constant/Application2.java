@@ -18,5 +18,7 @@ public class Application2 {
         /*모든 문자는 영문자 대문자 혹은 숫자만 사용한다*/
         final int AGE = 20;
         final int AGE2 = 30;
+
+
     }
 }
