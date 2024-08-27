@@ -81,6 +81,8 @@ public class Application2 {
 
         //대표 자료형 : 정수 int 실수 double 이 대표 자료형이다.
 
+        //참조 자료형 : 자료의 저장된 공간의 주소를 저장
+
 
 
 
