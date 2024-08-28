@@ -6,11 +6,11 @@ public class Application2 {
 
         /*title. 논리연산자의 우선순위에 대해 이해하고 활용해보자.*/
         /*comment.
-        *  논리 연산자의 우선순위와 활용
-        *  논리 and 연산자와 논리 or 연산자의 우선순위
-        *  && : 11순위
-        *  || : 12순위
-        * */
+         *  논리 연산자의 우선순위와 활용
+         *  논리 and 연산자와 논리 or 연산자의 우선순위
+         *  && : 11순위
+         *  || : 12순위
+         * */
 
         /*index. 1. 1 부터 100 사이의 값인지 확인 */
 
@@ -40,8 +40,7 @@ public class Application2 {
 
         char ch2 = 'f';
 
-        /**/
-        System.out.println("ch('f')가 영문자인지 확인 : " + (ch2>='A' && ch2 <= 'Z' || ch2>='a' && ch2 <= 'z'));
+        System.out.println("ch('f')가 영문자인지 확인 : " + ((ch2>='A' && ch2 <= 'Z') || (ch2>='a' && ch2 <= 'z')));
 
 
 

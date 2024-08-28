@@ -21,9 +21,9 @@ public class Application3 {
         * */
 
         int num1 = 10;
-        int result = (false && ++num1>0) ? num1 : num1 ;
+        int result1 = (false && ++num1>0) ? num1 : num1 ;
 
-        System.out.println("&&실행확인해보기 : " + result);
+        System.out.println("&&실행확인해보기 : " + result1);
 
         /*comment.
         *  &&앞의 조건식 두 개가 모두 만족을 해야 true 를 반환을 하는데
@@ -32,6 +32,14 @@ public class Application3 {
         *  따라서 컴퓨터가 일을 적게 하게 만들려면 => 속도향상
         *  false 가 나올 확률이 높은 조건을 앞에 두면 좋다.
         * */
+
+        /*index. 2. 논리 || 논리 : 앞의 결과가 true 일 때 뒤의 식 동작 확인. */
+
+        int num2 = 10;
+        int result2 = (true || ++num2>0) ? num2 : num2 ;
+
+        System.out.println("||실행확인해보기 : " + result2);
+
 
     }
 }
