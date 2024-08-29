@@ -4,6 +4,14 @@ public class Application1 {
 
     public static void main(String[] args) {
 
+        //변수: 공간
+        //리터럴 : 값
+        //상수 : 변하지 않는 값
+        //연산자 : 후위연산자는 다른 연산을 진행후에 더함
+        //연산자 : 전위연산자는 더한후에 진행함
+        //and : 둘중하나라도 false 면 false
+        //or : 둘중하나라도 true 면 true
+
         /*title. 메소드의 호출 흐름에 대해 이해할 수 있다.*/
         /*comment.
         *  메소드란
@@ -66,3 +74,6 @@ public class Application1 {
 /*로그인 메소드 로그아웃메소드도 있음*/
 
 /*흐름*/
+
+//++가 뒤에 있으면 연산먼저하고 더함
+//++가 앞에 있으면 더하기+1먼저하고 더함

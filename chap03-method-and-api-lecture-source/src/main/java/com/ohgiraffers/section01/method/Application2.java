@@ -47,3 +47,11 @@ public class Application2 {
         System.out.println("methodD 종료됨");
     }
 }
+
+//++가 뒤에 있으면 연산먼저하고 더함
+//++가 앞에 있으면 더하기+1먼저하고 더함
+//매소드는 스택이라는 저장공간의 특징의 구조를 가지고 진행됨 ㄷ자형왼쪽돌리기 main 은 젤 아래깔림.
+//메소드 실행시 어떠한 값을 미리주고(전달인자) 그 값을 활용(매개변수)해서 메소드를 수행가능
+//methodA(전달인자) public void methodA(매개변수)
+//atom material icon 으로 플러그인사용해서 폴더꾸며보기
+//rainbow brackets 으로 플러그인 사용해서 브라켓 꾸며보기

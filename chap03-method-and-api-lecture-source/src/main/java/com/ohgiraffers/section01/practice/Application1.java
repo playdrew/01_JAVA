@@ -14,11 +14,11 @@ public class Application1 {
 
     public void add (int a, int b) {
         int c = a + b;
-        int d = ++b;
+        int d = b++;
 
-        // 동일매서드내에서는 b++해도 b는 더해지지 않는다.
-        // 동일매서드내에서는 ++b하면 b도 더해진다.
-        // d만 더해진다.
+        // ++b를 하면 d와 b 당장 1더해집니다.
+        // b++를 하면 b는 당장 1 더해집니다.
+        // b++를 하면 d는 더해진 값이 나오지 아니함
 
         System.out.println("a = " +  a);
         System.out.println("b = " +  b);
@@ -33,6 +33,10 @@ public class Application1 {
         System.out.println("d = " + d);
 
         sub(a,b);
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("d = " + d);
     }
 
     public void sub (int a, int b) {

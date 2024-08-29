@@ -47,10 +47,17 @@ public class Application1 {
         System.out.println("result1 = " + result1);
         System.out.println("firstNum = " + firstNum);
 
+        //++가 뒤에 있으면 연산먼저하고 더함
+        //++가 앞에 있으면 더하기+1먼저하고 더함
+
+
         int secondNum = 20;
         int result2 = ++secondNum * 3;
         System.out.println("result2 = " + result2);
         System.out.println("secondNum = " + secondNum);
+
+        //++가 뒤에 있으면 연산먼저하고 더함
+        //++가 앞에 있으면 더하기+1먼저하고 더함
 
         /*comment 대입연산자'='를 만나서 =대입연산자가 끝난후에 ++가 작용하므로 result3의 값은 변하지 않습니다.
         *  '='도 연산자로 칩니다. */
