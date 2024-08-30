@@ -48,3 +48,12 @@ public class Application9 {
 }
 
 /* 공유하는 것 = static 공유하면서 바뀌면 안되는 값을 static 과 final 키워드를 붙여서 많이 사용합니다. */
+//                   call      return       pop 밖으로
+// stack 의 자료구조 ㄷ main method1 method2             = LIFO ( LAST IN FIRST OUT )
+//                                         push 안으로
+// 가장 늦게 들어온 녀석이 가장 빠르게 나가요.
+// 대기중이 있다고 하면 가장 먼저 들어온 사람이 빠져야하는데 STACK 으로 하면 1000번째가 젤 처음 첫번째가 아니라 잘못된 구조
+
+// 1 > 2 > 3           ㅡㅡㅡㅡㅡ
+// 1 > 2 > 3     구조    1 2 3  순서대로 나가요 이런 구조가 있을때는요 먼저들어온 놈이 먼저 나간다 
+//                     ㅡㅡㅡㅡㅡ
