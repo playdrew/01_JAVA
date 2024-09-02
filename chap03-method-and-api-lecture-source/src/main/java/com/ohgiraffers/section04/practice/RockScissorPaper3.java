@@ -18,7 +18,6 @@ public class RockScissorPaper3 {
         String result = (computerOutput==1) ? (userInput==2) ? "userWin" : (userInput==3) ? "userLose" : "무승부" :
                         (computerOutput==2) ? (userInput==3) ? "userWin" : (userInput==1) ? "userLose" : "무승부" : 
                                 (computerOutput==3) ? (userInput==1) ? "userWin" : (userInput==2) ? "userLose" : "무승부" : "컴퓨터오류";
-                
 
 
         System.out.println("computerOutput = " + computerOutput);
