@@ -192,7 +192,7 @@ public class A_for {
         return;
     }
 
-    public void testForExample4(){
+    public void testForExample3_1(){
         int sum =0;
         Random random = new Random();
         int rand = random.nextInt(6)+5;
@@ -202,5 +202,81 @@ public class A_for {
         }
 
         System.out.println("1부터 " + rand + "까지의 합은 : " + sum);
+
+        return;
     }
+
+    public void testForExample4(){
+
+        /*comment.
+        *  숫자 2개를 입력 받아 작은 수에서 큰 수 까지의 합을 구하시오!
+        *  단, 두 숫자는 같지 않다
+        * */
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("첫 번째 정수 입력 : ");
+        int first = scan.nextInt();
+        System.out.print("두 번째 정수 입력 : ");
+        int second = scan.nextInt();
+        // 합산결과를 담을 변수
+        int sum = 0;
+
+        // 5와 7을 입력했다 그럼 5+6+7이 되어야 합니다.
+        // 시작 숫자는 first 마지막은 7 second
+        // 8과 5라고 하면 sum = 0 인데요 .
+        // 조건식을 만족하지 않으므로 8<=5이니까 반복문실행안됨
+
+//        for(int i = first ; i <= second ; i++ ){
+//            sum += i;
+//            //+5
+//            //+6
+//            //+7
+//        }
+
+        // 만약 첫번째로 입력한 정수가 더 큰 경우 if(구문)
+
+        if(first>second){
+            for(int i = second ; i<=first ; i++){
+                sum += i;
+            }
+        } else {
+            // 만약 두 번째로 입력한 정수가 더 큰 경우 else(구문)
+            for(int i = first ; i<=second ; i++ ){
+                sum += i;
+            }
+        }
+
+        System.out.println("sum = " + sum);
+
+        return;
+    }
+
+    public void printSimpleGugudna(){
+
+        /*comment.
+        *  스캐너로 2~9사이의 구구단을 입력받아
+        *  2~9사이인 경우 구구단을 출력하고,
+        *  그렇지 않는 경우 " 반드시 2~9사이의 양수를 입력해주세요"
+        *  를 출력해보자.*/
+
+        // 2에서 9사이인 경우만
+        // 아니면 경고문
+        Scanner scan = new Scanner(System.in);
+        System.out.print("출력할 구구단의 단 수를 입력해주세요 : ");
+        int dan = scan.nextInt();
+
+        if(dan>=2 && dan <= 9){
+            for(int su = 1; su <= 9 ; su++){
+                System.out.println(dan + " * " + su + " = " + (dan*su));
+            }
+        } else {
+            // dan 이라고 하는 값이 2~9 사이가 아닌 경우 작성 할 영역
+            System.out.println("반드시 2~9 사이의 양수를 입력해주세요!!");
+        }
+
+        return;
+
+    }
+
+
 }
