@@ -35,7 +35,7 @@ public class Application {
         /*title. 뭔가 해결된 것 같지만 아직 해결되지 않은 게 있다.*/
         Monster monster5 = new Monster();
         monster5.kinds = "";
-        monster5.hp = -13123123313;
+        //monster5.hp = -13123123313;
         //comment. 아직도 필드에 직접 값을 넣을 수 있다.
         
     }

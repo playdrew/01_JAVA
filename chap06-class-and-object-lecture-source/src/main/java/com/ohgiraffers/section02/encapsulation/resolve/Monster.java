@@ -35,3 +35,7 @@ public class Monster {
         //this.name
     }
 }
+
+/* 객체란 (실체)?
+*  객체는 상호작용?
+*  */
