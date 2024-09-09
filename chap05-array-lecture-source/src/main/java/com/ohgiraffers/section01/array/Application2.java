@@ -80,6 +80,7 @@ public class Application2 {
 
         System.out.println("darr 의 hashcode : " + darr.hashCode());
         System.out.println("darr 의 길이 : " + darr.length);
+        System.out.println("darr = " + darr);
 
         // int x = 10;  x = 12
 
@@ -92,6 +93,7 @@ public class Application2 {
         darr = new double[10];
         System.out.println("수정 후 darr 의 hashcode() : " + darr.hashCode());
         System.out.println("수정 후 darr 의 길이 : " + darr.length);
+        System.out.println("수정 후 darr 의 주소 = " + darr);
 
         /* comment.
          *   한 번 할당 된 배열은 지울 수 없다.
