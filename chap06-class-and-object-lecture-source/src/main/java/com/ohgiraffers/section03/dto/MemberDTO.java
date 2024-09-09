@@ -111,4 +111,3 @@ public class MemberDTO {
 // member.setMemberNo(); 소괄호에 (1)을 넣으면 setMemberNo(int memberNo) 에서 (매개변수)소괄호에 담는다며음에
 // this.memberNo에 넣는 다는 것입니다. 매개변수와 필드명이 동일하면 this 를 생략하면 안됩니다
 // setting 으로 1이라는 값을 전달했다면 return 을 하면 1이될것입니다. getter 에서요
-//

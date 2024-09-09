@@ -30,6 +30,8 @@ public class Application {
         *   만약 매개변수가 있는 생성자가 존재한다면
         *   기본생성자는 compiler 가 자동으로 추가해주지 않는다
         *   따라서 이 점을 주의해야한다*/
+        
+        //값을 보내는게 인자 받는게 매개변수
 
         UserDTO user2 = new UserDTO("user01","01","조평훈");
         System.out.println("user2 의 초기값 : " + user2.toString());
