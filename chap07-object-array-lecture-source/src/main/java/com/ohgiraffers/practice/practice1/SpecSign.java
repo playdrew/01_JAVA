@@ -2,11 +2,12 @@ package com.ohgiraffers.practice.practice1;
 
 public class SpecSign {
 
-    public void SpecSignMethod(MemberDTO[]member){
-        System.out.println("총" + member.length + "만큼 등록되어있습니다");
+    public void insert(MemberDTO[]members){
 
-        for(int i = 0 ; i< member.length;i++){
-            System.out.println(member[i].getId()+"가 등록되었습니다.");
+        System.out.println("전달 받은 회원 " + members.length + "명 등록하겠습니다.");
+
+        for(int i = 0 ; i< members.length; i++){
+            System.out.println(members[i].getId() +  "님을 회원 등록에 성공했습니다.");
         }
     }
 }
