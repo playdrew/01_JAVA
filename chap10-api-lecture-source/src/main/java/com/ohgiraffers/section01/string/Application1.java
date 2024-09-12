@@ -74,7 +74,7 @@ public class Application1 {
 
         /*comment.
         *   replace() : 문자열에서 대체할 문자열로 기존 문자열을 변경해서 사용한다.
-        * */-
+        * */
         
         //주민번호 뒤에 *표시나오게 하는거 substring 과 함께 사용
         System.out.println("replace() : " + str4.replace("java","python"));
