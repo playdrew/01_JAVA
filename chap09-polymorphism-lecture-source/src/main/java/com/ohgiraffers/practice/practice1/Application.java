@@ -19,9 +19,9 @@ public class Application {
         너구리 a41 = (너구리)a4;
 
         개구리 a5 = new 개구리();
-        동물 a51 = (동물)new 개구리();
+        동물 a51 = (동물)a5;
         너구리 a6 = new 너구리();
-        동물 a61 = (동물)new 너구리
+        동물 a61 = (동물)a6;
 
 
         Application app = new Application();

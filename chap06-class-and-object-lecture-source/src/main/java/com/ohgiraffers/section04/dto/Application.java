@@ -19,7 +19,9 @@ public class Application {
         **/
 
         UserDTO user1 = new UserDTO("user01","pass01","조평훈", LocalDateTime.now());
-        System.out.println("user01 정보 : " + user1.toString());
+        System.out.println("user01 정보 : " + user1.toString()); // 회색의 toString 구지 안써도 적용
+        System.out.println("user01 정보 : " + user1);
+        //user.toString(); 가 오버라이드가 되어있으면 원래는 주소값을 출력해야하는데 toString 을 생략해도 toString()의 값이 나온다
         
         /*Index. 2. 기본 생성자와 설정자를 이용한 초기화*/
         /*comment.
