@@ -35,6 +35,8 @@ public class Application2 {
         Integer y = new Integer(10);//deprecated 권장하지 않음 이것은 int 기본자료형을 인스턴스화 시킨것입니다. 기존 스택에 잠깐 머무르는 것이아니라 메모리공간에 할당받는 것이에요
         //나중에 collection 클래스를 가게 되면 Integer 그니까 Wrapper 를 쓸 수 밖에 없어요
         //인스턴스화를 시킬 거냐 말거냐 객체로 만들거냐 말거냐 입니다.
+        //auto-unboxing 래퍼클래스를 원시타입으로
+        //auto-boxing 원시타입을 래퍼클래스로
         
         
 

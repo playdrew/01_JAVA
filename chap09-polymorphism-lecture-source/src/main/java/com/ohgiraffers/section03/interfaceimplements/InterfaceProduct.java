@@ -20,13 +20,13 @@ public interface InterfaceProduct {
     * */
     
     //구현부가 없어요 상속받은 클래스를 통해 인스턴스 작성
-    /*Index. 1. 인터페이스는 생성자를 가질수 없다.*/
+    /* Index. 1. 인터페이스는 생성자를 가질 수 없다.*/
     //public InterfaceProduct(){} // not allowed
     
-    /*Index. 2 인터페이스는 구현부가 있는 메소드를 가질 수 없다*/
+    /* Index. 2 인터페이스는 구현부가 있는 메소드를 가질 수 없다 */
     //public void nonStaticMethod(){}// {} <-cannot have 바디 구현체
 
-    /*Index. 3. 추상클래스에서 작성해본 추상메소드만 작성할 수 있다*/
+    /* Index. 3. 추상클래스에서 작성해본 추상메소드만 작성할 수 있다 */
     //public abstract void nonStaticMethod(); 회색줄은 작성안해도 된다는 의미 또는 사용하고 있지 않다는 의미이기도
     /*comment.
     *   인터페이스 내부의 메소드는 묵시적으로 public abstract 의 의미를
