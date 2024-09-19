@@ -9,8 +9,5 @@ public class SpecSign {
         for(int i = 0 ; i< members.length ; i++){
             System.out.println(members[i].getId() + "가 등록되었습니다");
         }
-
-
     }
-
 }

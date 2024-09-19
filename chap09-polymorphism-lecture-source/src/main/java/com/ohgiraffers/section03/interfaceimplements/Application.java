@@ -32,6 +32,7 @@ public class Application {
        InterfaceProduct interfaceProduct = new Product();
        // 동적 바인딩을 통해 오버라이딩 된 메소드로 호출이 된다.
        interfaceProduct.nonStaticMethod();
+       InterfaceProduct.staticMethod();
        
         //공통적으로 쓸 기능을 하나의 클래스로 넣은다음에 반드시 해야할 기능들을 추상클래스와 인터페이스에 정의해서 상속만 받게 되면 강제적으로 그 메서드는 우리가 구지 작성하지 않더라도 사용하게 되요
         // 3번 3번 3번 여러번 쓰는개 아니라 하나를 만든 다음에 상속만 딱 만드는 것이에요 좋은 코드를 위한 기능이죠

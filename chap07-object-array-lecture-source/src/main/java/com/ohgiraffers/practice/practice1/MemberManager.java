@@ -16,7 +16,7 @@ public class MemberManager {
         SpecSearch sa = new SpecSearch();
         MemberDTO[] result = sa.sear();
         for(MemberDTO members : result){
-            System.out.println(members.toString());
+            System.out.println(members);
         }
         System.out.println("총 " + result.length + "명의 회원이 가입되어 있습니다!!!");
 
