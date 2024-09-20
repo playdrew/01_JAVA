@@ -87,7 +87,6 @@ public class Application1 {
             System.out.println(value);
             System.out.println(key + " = " + value);
         }
-        
     }
 }
 
