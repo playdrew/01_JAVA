@@ -1,0 +1,6 @@
+#jdbc driver
+#Fri Sep 20 11:06:24 KST 2024
+password=ohgiraffers
+drive=com.mysql.cj.jdbc.Driver
+url=jdbc\:mysql//localhost/menu
+username=ohgiraffers
