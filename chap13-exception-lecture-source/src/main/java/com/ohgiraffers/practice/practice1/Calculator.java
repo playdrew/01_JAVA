@@ -21,10 +21,10 @@ public class Calculator {
 
     public static void multiply(int num1, int num2) throws MutipleNotZeroException {
         if(num1 == 0){
-            throw new MutipleNotZeroException("첫번째 곱하는 정수가 0 일 수는 없습니다");
+            throw new MutipleNotZeroException("첫번째 곱하는 정수가 0 은 허용하지 않았습니다");
         }
         if(num2==0){
-            throw new MutipleNotZeroException("두번째 곱하는 정수가 0 일 수는 없습니다");
+            throw new MutipleNotZeroException("두번째 곱하는 정수가 0 은 허용하지 않았습니다");
         }
         result = num1 * num2;
         System.out.println(num1 + " * " + num2 + " = " + result);

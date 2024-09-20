@@ -16,7 +16,7 @@ public class Application5 {
         for(String s : que){
             System.out.print(s + ", ");
         }
-        System.out.println("");
+
         System.out.println("===========================");
 
         System.out.println("que.peek() : " + que.peek());

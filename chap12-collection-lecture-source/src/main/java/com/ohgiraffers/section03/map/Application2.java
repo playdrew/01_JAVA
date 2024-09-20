@@ -41,6 +41,8 @@ public class Application2 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+
         
         /* Index. 1. Output 으로 파일을 내보냈다. 그러면 인제 내보낸 파일을 읽어보자 */
         Properties prop2 = new Properties();

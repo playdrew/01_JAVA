@@ -1,5 +1,5 @@
 #jdbc driver
-#Fri Sep 20 17:10:44 KST 2024
+#Fri Sep 20 17:14:01 KST 2024
 password=ohgiraffers
 drive=com.mysql.cj.jdbc.Driver
 url=jdbc\:mysql//localhost/menu
