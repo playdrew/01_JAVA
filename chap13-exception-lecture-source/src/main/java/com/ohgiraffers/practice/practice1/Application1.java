@@ -29,12 +29,12 @@ public class Application1 {
                     try {
                         Calculator.multiply(num1, num2);
                     } catch (MutipleNotZeroException e) {
-//                        if(num1==0){
-//                            System.out.println("첫번째 정수가 " + num1 + " 이라서 안됩니다");
-//                        }
-//                        if(num2==0){
-//                            System.out.println("두번째 정수가 " + num2 + " 이라서 안됩니다");
-//                        }
+                        if(num1==0){
+                            System.out.println("첫번째 정수가 " + num1 + " 이라서 안됩니다");
+                        }
+                        if(num2==0){
+                            System.out.println("두번째 정수가 " + num2 + " 이라서 안됩니다");
+                        }
                         System.out.println(e.getMessage());
                     }
                     break;
