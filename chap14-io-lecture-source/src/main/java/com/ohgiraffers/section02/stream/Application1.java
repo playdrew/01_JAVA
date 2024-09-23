@@ -35,6 +35,7 @@ public class Application1 {
 
         // 파일을 읽어오는 객체
         FileInputStream fin = null; // FileInputStream 은 1byte 로 읽어오기 때문에 한글은 3byte 이기에 깨집니다.
+        // new 라고 인스턴스를 생성과 선언을 하면 try catch 구문내에서 사용할수없습니다.
 
         try {
             
@@ -79,8 +80,6 @@ public class Application1 {
                     throw new RuntimeException(e);
                 }
             }
-
         }
-
     }
 }
