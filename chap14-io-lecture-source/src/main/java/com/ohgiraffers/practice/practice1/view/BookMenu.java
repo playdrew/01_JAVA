@@ -1,5 +1,6 @@
 package com.ohgiraffers.practice.practice1.view;
 
+import com.ohgiraffers.practice.practice1.BookDTO;
 import com.ohgiraffers.practice.practice1.controller.BookManager;
 
 import java.util.Scanner;
@@ -69,6 +70,5 @@ public class BookMenu {
 
     public String inputBookTitle() {
         return sc.nextLine();
-
     }
 }
